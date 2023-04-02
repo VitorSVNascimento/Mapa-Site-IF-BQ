@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#sidebarContainer.d-none {
+    display: none !important;
+  }
+
+@media (min-width: 768px) {
+  #sidebarContainer.d-md-block {
+    display: block !important;
+  }
+}
+/* #flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#logoDiv{
+    display: flex;
+    align-items: center;
+}
+
+ */
+
+/* @media (max-width:500px) {
+    #logoImg ,#logoDiv {
+        display: none;
+    }
+} */
