@@ -198,8 +198,288 @@ $(function () {
       }
       
       ]
+    },
+    {
+      "title": "Campus Barbacena",
+      "links": [
+        {
+          "title": "O instituto ",
+          "url": "https://www.ifsudestemg.edu.br/barbacena/institucional/o-instituto"
+      },
+      {
+          "title": "O campus",
+          "url": "https://www.ifsudestemg.edu.br/barbacena/institucional/o-campus"
+      },
+      {
+          "title": "Gabinete",
+          "url": "https://www.ifsudestemg.edu.br/barbacena/institucional/gabinete"
+      },
+      {
+          "title": "Ensino",
+          "url": "https://www.ifsudestemg.edu.br/barbacena/institucional/ensino"
+      },
+      {
+          "title": "Extensão",
+          "url": "https://www.ifsudestemg.edu.br/barbacena/institucional/extensao"
+      },
+      {
+          "title": "Licitações",
+          "url": "https://www.ifsudestemg.edu.br/licitacoes#b_start=0&c4=barbacena-148413"
+      },
+      {
+          "title": "Pesquisa",
+          "url": "https://www.ifsudestemg.edu.br/barbacena/institucional/pesquisa"
+      },
+      {
+          "title": "Gestão institucional",
+          "url": "https://www.ifsudestemg.edu.br/barbacena/institucional/gestao-institucional"
+      },
+      {
+          "title": "Gestão de pessoas",
+          "url": "https://www.ifsudestemg.edu.br/barbacena/institucional/gestao-de-pessoas"
+      },
+      {
+          "title": "Corpo docente",
+          "url": "https://www.ifsudestemg.edu.br/barbacena/institucional/corpo-docente"
+      },
+      {
+          "title": "Órgãos colegiados ",
+          "url": "https://www.ifsudestemg.edu.br/barbacena/institucional/orgaos-colegiados"
+      },
+      {
+          "title": "Órgãos estudantis",
+          "url": "https://www.ifsudestemg.edu.br/barbacena/institucional/orgaos-estudantis"
+      },
+      {
+          "title": "Comissões e comitês",
+          "url": "https://www.ifsudestemg.edu.br/barbacena/institucional/comissoes-e-comites"
+      },
+      {
+          "title": "Documentos institucionais",
+          "url": "https://www.ifsudestemg.edu.br/documentos-institucionais/unidades/barbacena"
+      }
+      
+      ]
+    },
+    {
+      "title": "Campus Planejamento Institucional",
+      "links": [
+        {
+          "title": "PDI 2021 - 2025",
+          "url": "https://www.ifsudestemg.edu.br/institucional/pdi/pdi-2021-2025"
+      },
+      {
+          "title": "PDI 2014/2 - 2020 - Página antiga ",
+          "url": "https://www.ifsudestemg.edu.br/institucional/pdi/pdi-2014-2020"
+      }
+      ]
+    },
+    {
+      "title": "Unidades do IF sudeste MG",
+      "links": [
+        {
+          "title": "Visão Geral",
+          "url": "https://www.ifsudestemg.edu.br/institucional/unidades"
+      },
+      {
+          "title": "Reitoria",
+          "url": "https://www.ifsudestemg.edu.br/IFSudesteMG"
+      },
+      {
+          "title": "Barbacena",
+          "url": "https://www.ifsudestemg.edu.br/barbacena"
+      },
+      {
+          "title": "Juiz de fora",
+          "url": "https://www.ifsudestemg.edu.br/juizdefora"
+      },
+      {
+          "title": "Manhuaçu",
+          "url": "https://www.ifsudestemg.edu.br/manhuacu"
+      },
+      {
+          "title": "Muriaé",
+          "url": "https://www.ifsudestemg.edu.br/muriae"
+      },
+      {
+          "title": "Rio Pomba",
+          "url": "https://www.ifsudestemg.edu.br/riopomba"
+      },
+      {
+          "title": "Santos Dumont",
+          "url": "https://www.ifsudestemg.edu.br/santosdumont"
+      },
+      {
+          "title": "São João",
+          "url": "https://www.ifsudestemg.edu.br/sjdr"
+      },
+      {
+          "title": "Bom sucesso",
+          "url": "https://www.ifsudestemg.edu.br/bomsucesso"
+      },
+      {
+          "title": "Cataguases",
+          "url": "https://www.ifsudestemg.edu.br/cataguases"
+      },
+      {
+          "title": "Ubá",
+          "url": "https://www.ifsudestemg.edu.br/uba"
+      }
+      ]
+    },
+    {
+      "title": "Barra lateral",
+      "links": [
+        {
+          "title": "Estudante",
+          "url": "https://www.ifsudestemg.edu.br/barbacena/acesso-rapido/estudante"
+      },
+      {
+          "title": "Servidor",
+          "url": "https://www.ifsudestemg.edu.br/barbacena/acesso-rapido/servidor"
+      },
+      {
+        "title": "Matrícula",
+        "url": "https://www.ifsudestemg.edu.br/matriculas"
+      }
+      ]
+    },
+    {
+      "title": "Cabeçalho",
+      "links": [
+        {
+          "title": "Fale Conosco",
+          "url": "https://www.ifsudestemg.edu.br/fale-conosco"
+      },
+      {
+          "title": "Ouvidoria",
+          "url": "https://www.ifsudestemg.edu.br/ouvidoria"
+      },
+      {
+        "title": "Perguntas Frequentes",
+        "url": "https://www.ifsudestemg.edu.br/perguntas-frequentes"
+      },
+      {
+        "title": "Comunicação Social",
+        "url": "https://www.ifsudestemg.edu.br/comunicacao-social"
+      }
+      ]
+    },
+    {
+      "title": "Redes Sociais",
+      "links": [
+        {
+          "title": "YouTube",
+          "url": "https://www.youtube.com/IFSUDESTEMGVIDEOS"
+      },
+      {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/ifsudestemg/"
+      },
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/institutofederalsudestemg"
+      }
+      ]
+    },
+    {
+      "title": "Notícias",
+      "links": [
+        {
+          "title": "Todas as Notícias",
+          "url": "https://www.ifsudestemg.edu.br/noticias/barbacena/"
+      },
+      {
+          "title": "Notícias ensino",
+          "url": "https://www.ifsudestemg.edu.br/noticias/barbacena/ensino/"
+      },
+      {
+        "title": "Extensão notícias",
+        "url": "https://www.ifsudestemg.edu.br/noticias/barbacena/extensao/"
+      }
+      ]
+    },
+    {
+      "title": "Hotsites",
+      "links": [
+        {
+          "title": "Processo seletivo",
+          "url": "https://www.ifsudestemg.edu.br/hotsites/processo-seletivo-2023-1"
+      },
+      {
+          "title": "Calendários",
+          "url": "https://www.ifsudestemg.edu.br/documentos-institucionais/calendarios"
+      },
+      {
+        "title": "Cursos",
+        "url": "https://www.ifsudestemg.edu.br/cursos"
+      }
+      ]
+    },
+    {
+      "title": "Links Úteis",
+      "links": [
+        {
+          "title": "Enem",
+          "url": "https://www.ifsudestemg.edu.br/institucional/pro-reitorias/ensino/certificacoes-enem"
+      },
+      {
+          "title": "ENCCEJA",
+          "url": "https://www.ifsudestemg.edu.br/institucional/pro-reitorias/ensino/programas-e-projetos/encceja"
+      },
+      {
+        "title": "COPESE",
+        "url": "https://www.ifsudestemg.edu.br/hotsites/processo-seletivo-2023-2"
+      },
+      {
+        "title": "periodicos.",
+        "url": "https://www-periodicos-capes-gov-br.ez367.periodicos.capes.gov.br/index.php?"
+      }
+      ]
+    },
+    {
+      "title": "Rodapé",
+      "links": [
+        {
+          "title": "Consulte o cadastro do IFSudesteMG no e-MEC",
+          "url": "https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MzI3OQ=="
+      },
+      {
+          "title": "RSS",
+          "url": "https://www.ifsudestemg.edu.br/rss/o-que-e"
+      },
+      {
+        "title": "Acesso à informação",
+        "url": "https://www.gov.br/acessoainformacao/pt-br"
+      }
+      ]
+    },
+    {
+      "title": "Fique por dentro",
+      "links": [
+        {
+          "title": "ÚLTIMOS EDITAIS",
+          "url": "https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MzI3OQ=="
+      },
+      {
+          "title": "CONVOCAÇÕES DO CONSELHO DE CAMPUS",
+          "url": "https://www.ifsudestemg.edu.br/convocacoes/barbacena/convocacoes-do-conselho-de-campus"
+      },
+      {
+        "title": "CONVOCAÇÕES DOS ÓRGÃOS SUPERIORES E COLEGIADOS ESPECIALIZADOS",
+        "url": "https://www.ifsudestemg.edu.br/convocacoes/convocacoes-orgaos-superiores-e-colegiados"
+      },
+      {
+        "title": "Relações Internacionais",
+        "url": "https://www.ifsudestemg.edu.br/institucional/pro-reitorias/extensao/estrutura-organizacional/driit"
+      }
+      ]
     }
+
   ]
+
+ 
+
   
   function createDropdownMenu(title, links) {
     // Criar o elemento HTML do dropdown
