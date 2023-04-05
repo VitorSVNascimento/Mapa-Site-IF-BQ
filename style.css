@@ -3,6 +3,26 @@
     padding: 0px;
 }
 
+.form-control-lg {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffff;
+  border-radius: 0;
+  margin-right: 1em;
+}
+
+.form-control-lg::placeholder{
+  color: white;
+}
+
+body{
+  background: url(img/imagem.jpg) no-repeat;
+  background-size: cover;
+}
+
+#sidebarContainer.d-none {
+    display: none !important;
+  }
 #sidebarContainer.d-none {
     display: none !important;
   }
@@ -12,6 +32,58 @@
     display: block !important;
   }
 }
+
+.primary-button{
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+#search-icon{
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1em;
+}
+
+#main-section{
+  margin-top: 10vh;
+}
+
+#primary-button{
+  margin-top: 5vh;
+}
+
+.main-button{
+  width: 309px;
+  height: 103px;
+  text-align: center;
+  font: normal normal 600 34px/46px Noto Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+  border-width: 2px;
+}
+
+.highlight-button{
+  /* Layout Properties */
+  width: 175px;
+  height: 58px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 19px/26px Noto Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.nav-button{
+  /* Layout Properties */
+  width: 144px;
+  height: 48px;
+}
+
+.d-flex{
+  margin-top: 32vh;
+}
+
 /* #flexContainer{
     display: flex;
     flex-wrap: wrap;
