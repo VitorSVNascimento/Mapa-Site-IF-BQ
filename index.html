@@ -30,22 +30,23 @@
                   <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Cursos</a>
+                  <a class="nav-link text-light" href="https://www.ifsudestemg.edu.br/cursos">Cursos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Hotsites</a>
+                  <a class="nav-link text-light" href="https://www.ifsudestemg.edu.br/hotsites">Hotsites</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Acesso á Informação</a>
+                  <a class="nav-link text-light" href="https://www.gov.br/acessoainformacao/pt-br">Acesso á Informação</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle text-light" href="#" id="sidebar-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Todos os links
                   </a>
                   <div id="sidebarContainer"class="dropdown-menu" aria-labelledby="sidebar-toggle">
-                      <h4>Ordenar por</h4>
-                      <a  class=" btn-secondary btn-sm" id="azLink">A-Z</a>
-                      <button  class=" highlight-button btn btn-success" onclick="adicionarDropdowns(json)">Tópicos</button>
+                      <h4 id = "order">Ordenar Por</h4>
+                      <button  class="w-100 py-2 mb-2 btn rounded-0 btn-success"  onclick="adicionarDropdowns(orderJson)"Tópicos>A-Z</button>
+                      <button  class="w-100 py-2 btn rounded-0 btn-success" onclick="adicionarDropdowns(json)">Tópicos</button>
+                      <hr>
                   </div>
                 </li>
 
@@ -53,39 +54,39 @@
               </ul>
             </div>
             <form class="form-inline my-2 my-lg-0">
-              <div class="form-outline position-relative">
+              <div class="form-outline position-relative mr-3">
                 <i id = "search-icon" class="bi bi-search text-light position-absolute"></i>  
                 <input type="search" id="searchBar" class="form-control-lg px-5" placeholder="Buscar" aria-label="Search" />
-                </div>
+                <div id="teste">
+                  <ul id="listalinks" class="h-100">
+                  </ul>
+                </div>  
+              </div>
             </form>
-            <button class = "nav-button btn btn-outline-light border-4">Fale Conosco</button>
-            <i class="bi bi-facebook mx-2 text-light"></i>
-            <i class="bi bi-instagram mx-2 text-light"></i>
-            <i class="bi bi-youtube mx-2 text-light"></i>
+            <a href="https://www.ifsudestemg.edu.br/fale-conosco"><button class = "nav-button btn btn-outline-light border-4">Fale Conosco</button></a>
+            <a href="https://www.facebook.com/institutofederalsudestemg"><i class="bi bi-facebook mx-2 text-light"></i></a>
+            <a href="https://www.instagram.com/ifsudestemg/"><i class="bi bi-instagram mx-2 text-light"></i></a>
+            <a href="https://www.youtube.com/IFSUDESTEMGVIDEOS"><i class="bi bi-youtube mx-2 text-light"></i></a>
           </nav>
 
     </header>
 
-    <div class="d-flex justify-content-center">
-      <button class="main-button btn btn-outline-success border-4">Processo Seletivo</button>
-    </div>
-    
-    <div id="teste">
-      <ul id="listalinks">
+    <div class="logo-if"></div>
 
-      </ul>
+    <div class="d-flex justify-content-center">
+      <a href="https://www.ifsudestemg.edu.br/hotsites/processo-seletivo-2023-1"><button class="main-button btn btn-outline-success border-4">Processo Seletivo</button></a> 
     </div>
-      
+
     <section id = "main-section">
       <div class = "primary-button">
-        <a href=""><button class = "highlight-button btn btn-success mx-5">Estudantes</button></a>
-        <a href=""><button class = "highlight-button btn btn-success mx-5">Calendario</button></a>
-        <a href=""><button class = "highlight-button btn btn-success mx-5">Informação</button></a>
+        <a href="https://www.ifsudestemg.edu.br/barbacena/acesso-rapido/estudante"><button class = "highlight-button btn btn-success mx-5">Estudantes</button></a>
+        <a href="https://www.ifsudestemg.edu.br/documentos-institucionais/calendarios"><button class = "highlight-button btn btn-success mx-5">Calendário</button></a>
+        <a href="https://www.ifsudestemg.edu.br/matriculas"><button class = "highlight-button btn btn-success mx-5">Matrícula</button></a>
       </div>
       <div id="primary-button" class = "primary-button">
-        <a href=""><button class = "highlight-button btn btn-success  mx-5">Notícias</button></a>
-        <a href=""><button class = "highlight-button btn btn-success  mx-5">Pesquisa</button></a>
-        <a href=""><button class = "highlight-button btn btn-success  mx-5">Extensão</button></a>
+        <a href="https://www.ifsudestemg.edu.br/noticias/barbacena/"><button class = "highlight-button btn btn-success  mx-5">Notícias</button></a>
+        <a href="https://www.ifsudestemg.edu.br/barbacena/institucional/pesquisa"><button class = "highlight-button btn btn-success  mx-5">Pesquisa</button></a>
+        <a href="https://www.ifsudestemg.edu.br/barbacena/institucional/extensao"><button class = "highlight-button btn btn-success  mx-5">Extensão</button></a>
       </div>
     </section>
     
