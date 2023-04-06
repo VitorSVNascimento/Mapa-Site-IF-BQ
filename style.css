@@ -8,11 +8,94 @@
   border: none;
   border-bottom: 1px solid #ffff;
   border-radius: 0;
-  margin-right: 1em;
 }
 
 .form-control-lg::placeholder{
   color: white;
+}
+
+.form-control-lg:focus{
+  outline: none;
+  background-color: rgba(193, 193, 193, 0.44);
+  color: white;
+  border-radius: 3px;
+}
+
+.logo-if{
+  background-image: url(img/LogoIF.png);
+  width: 500px;
+  height: 500px;
+  position: absolute;
+}
+
+#teste{
+  overflow-y: scroll;
+  overflow: auto;
+  z-index: 10;
+  position: absolute;
+  background-color: white;
+  top: 3em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 200px;
+  border-radius: 0.5em;
+  display: none;
+}
+
+#listalinks > li{
+  padding: 0.5em 1.0em;
+}
+
+#listalinks > li:hover, .dropdown-menu li:hover{
+  background-color: rgba(193, 193, 193, 0.3);;
+}
+
+#listalinks > li > a{
+  color: #198754;
+}
+
+#order{
+  text-align: center;
+  color: green;
+}
+
+.dropdown-button{
+  width: 100%;  
+  color: #28a745;
+  background-color: transparent;
+  /* border-color: #28a745; */
+  border: 0;
+  padding: 0.5em 1.0em;
+}
+
+.dropdown-menu a {
+  width: 100%;  
+  color: #28a745;
+  background-color: transparent;
+  /* border-color: #28a745; */
+  border: 0;
+}
+
+.dropdown-button:hover {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+#sidebar-toggle{
+  border: solid 2px #fff;
+  border-radius: 6px;
+}
+
+.dropdown-button:focus, .dropdown-button.focus {
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+
+
+.btn-secondary{
+  width: 100%;
 }
 
 body{
@@ -54,13 +137,13 @@ body{
 }
 
 .main-button{
-  width: 309px;
-  height: 103px;
-  text-align: center;
+  height: 103px;  
   font: normal normal 600 34px/46px Noto Sans;
   letter-spacing: 0px;
   opacity: 1;
   border-width: 2px;
+  margin-bottom: 10vh;
+  padding: 0.5em 1em;
 }
 
 .highlight-button{
@@ -84,6 +167,34 @@ body{
   margin-top: 32vh;
 }
 
+@media(max-width:1300px) {
+  .logo-if{
+    display: none;
+  }
+}
+
+@media(max-width:800px){
+  .primary-button{
+    flex-direction: column;
+  }
+  #main-section{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+  }
+  #primary-button{
+    margin: 0;
+  }
+}
+
+/* @media (max-width:880px){
+  .primary-button{
+    display: block;
+    justify-items: auto;
+    justify-content: center;
+  }
+} */
 /* #flexContainer{
     display: flex;
     flex-wrap: wrap;

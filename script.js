@@ -405,6 +405,10 @@ $(function () {
           "title": "Processo seletivo",
           "url": "https://www.ifsudestemg.edu.br/hotsites/processo-seletivo-2023-1"
       },
+        {
+          "title": "hotsites",
+          "url": "https://www.ifsudestemg.edu.br/hotsites"
+      },
       {
           "title": "Calendários",
           "url": "https://www.ifsudestemg.edu.br/documentos-institucionais/calendarios"
@@ -977,6 +981,20 @@ var orderJson = [
  
 ]
 
+isImputEmpty()
+
+function isImputEmpty(){
+    document.querySelector(".form-control-lg").addEventListener('input', function (e) {
+        console.log("input:", e.target.value) 
+        let teste = document.querySelector("#teste")
+        if (e.target.value.length){
+            teste.style.display = "flex"
+        }
+        else{
+            teste.style.display = "none"
+        }
+    })
+}
 // function ordenarJson(json) {
 //   // Cria um objeto para guardar os links de cada letra
 //   var linksByLetter = {};
@@ -1059,6 +1077,7 @@ var orderJson = [
     // Criar o elemento HTML da lista de sublinks
     var dropdownList = document.createElement("ul");
     dropdownList.classList.add("dropdown-menu");
+    
     
     // Adicionar cada sublink na lista
     for (var i = 0; i < links.length; i++) {
@@ -1167,5 +1186,3 @@ myLink.addEventListener('click', function() {
    adicionarDropdowns(orderJson)
    return;
 });
-
-
