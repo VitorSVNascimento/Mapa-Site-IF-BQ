@@ -103,18 +103,18 @@ body{
   background-size: cover;
 }
 
-#sidebarContainer.d-none {
+/* #sidebarContainer.d-none {
     display: none !important;
   }
 #sidebarContainer.d-none {
     display: none !important;
-  }
+  } */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   #sidebarContainer.d-md-block {
     display: block !important;
   }
-}
+} */
 
 .primary-button{
   display: flex;
