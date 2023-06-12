@@ -715,3 +715,47 @@ console.log(dropdownsInternos)
           evento.stopPropagation();
         });
       });
+
+function toggleTheme(onLoad = false){
+    const body = document.body;      
+    let theme = localStorage.getItem("theme");    
+    
+    if (!theme){
+        theme = "light";
+    }
+
+    if (onLoad){
+        if (theme === "dark") {        
+            body.classList.add("dark");
+            let icon = document.querySelector(".fa-moon-o");
+            icon.classList.remove("fa-moon-o");
+            icon.classList.add("fa-sun-o");   
+        } 
+        else {     
+            body.classList.remove("dark");
+            let icon = document.querySelector(".fa-sun-o");
+            icon.classList.remove("fa-sun-o");
+            icon.classList.add("fa-moon-o");    
+        }  
+    }
+    else {
+        if (theme === "light") {        
+            let icon = document.querySelector(".fa-moon-o");
+            icon.classList.remove("fa-moon-o");
+            icon.classList.add("fa-sun-o");
+            body.classList.add("dark");   
+            localStorage.setItem("theme", "dark");
+        } 
+        else {
+            let icon = document.querySelector(".fa-sun-o");
+            icon.classList.remove("fa-sun-o");
+            icon.classList.add("fa-moon-o");     
+            body.classList.remove("dark");   
+            localStorage.setItem("theme", "light");
+        }   
+    }  
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    toggleTheme(true);
+  });
